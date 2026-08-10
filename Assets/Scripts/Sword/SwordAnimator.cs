@@ -11,12 +11,7 @@ namespace Sword
         private static string k_AttackState2 = "Attack2";
         
         public int AttackCombo { get; private set; }
-        public void SetAttackState(int value)
-        {
-            Debug.Log($"SetAttackState 호출됨: {value}");
-            
-            AttackCombo = value;
-        }
+
         private void Awake()
         {
             m_Animator = GetComponent<Animator>();
@@ -27,7 +22,7 @@ namespace Sword
         {
             if(!clicked) return;
             
-            Debug.Log(AttackCombo);
+            //Debug.Log(AttackCombo);
             
             if (AttackCombo == 1)
             {
