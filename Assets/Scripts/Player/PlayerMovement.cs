@@ -7,9 +7,10 @@ namespace Player
     {
         [SerializeField] private float m_MoveSpeed = 5f;
         [SerializeField] private float m_JumpForce = 10f;
+        [SerializeField] private int m_MaxJumpCount = 2;
+        [SerializeField] private int m_JumpCount;
 
         private Rigidbody2D m_Rigidbody;
-        private bool m_IsGrounded;
 
         private void Awake()
         {
@@ -26,7 +27,7 @@ namespace Player
 
         public void Jump()
         {
-            if (!m_IsGrounded)
+            if (m_JumpCount >= m_MaxJumpCount)
                 return;
 
             m_Rigidbody.linearVelocity = new Vector2(
@@ -34,7 +35,7 @@ namespace Player
                 m_JumpForce
             );
 
-            m_IsGrounded = false;
+            m_JumpCount++;
         }
 
         private void OnCollisionEnter2D(Collision2D collision)
@@ -47,7 +48,7 @@ namespace Player
                 // 바닥과 충돌했는지 확인
                 if (contact.normal.y > 0.5f)
                 {
-                    m_IsGrounded = true;
+                    m_JumpCount = 0;
                     break;
                 }
             }
@@ -55,7 +56,7 @@ namespace Player
 
         private void OnCollisionExit2D(Collision2D collision)
         {
-            m_IsGrounded = false;
+            //m_JumpCount++;
         }
     }
 }
