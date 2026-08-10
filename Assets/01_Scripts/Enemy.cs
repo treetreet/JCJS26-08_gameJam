@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-enum EnemyState
+public enum EnemyState
 {
     Patrol,
     Detect,
@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
 {
     [Header("Enemy Stat")]
     public EnemyStat enemyStat;
-    private EnemyState enemyState;
+    protected EnemyState enemyState;
 
     [Header("Enemy Components")]
     [SerializeField] private List<Transform> patrolPoints;
@@ -102,5 +102,11 @@ public class Enemy : MonoBehaviour
     protected virtual void Attack()
     {
         // Implement attack behavior
+    }
+
+    // TODO : Implement the ChangeState method to handle state transitions based on conditions
+    protected virtual void ChangeState(EnemyState newState)
+    {
+        enemyState = newState;
     }
 }
