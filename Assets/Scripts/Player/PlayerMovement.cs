@@ -8,9 +8,9 @@ namespace Player
         [SerializeField] private float m_MoveSpeed = 5f;
         [SerializeField] private float m_JumpForce = 10f;
         [SerializeField] private int m_MaxJumpCount = 2;
-        [SerializeField] private int m_JumpCount;
-
+        
         private Rigidbody2D m_Rigidbody;
+        private int m_JumpCount;
 
         private void Awake()
         {
@@ -18,13 +18,15 @@ namespace Player
         }
 
         public void Move(Vector3 inputVector)
-        {
+        {           
             m_Rigidbody.linearVelocity = new Vector2(
                 inputVector.x * m_MoveSpeed,
                 m_Rigidbody.linearVelocity.y
             );
         }
 
+
+        
         public void Jump()
         {
             if (m_JumpCount >= m_MaxJumpCount)
