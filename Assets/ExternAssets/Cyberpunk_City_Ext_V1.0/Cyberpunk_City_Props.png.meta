@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 04c788601c442704db4bba8da8ed6954
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5205795694101829267
+    second: Cyberpunk_City_Props_0
+  - first:
+      213: 1801382411169610306
+    second: Cyberpunk_City_Props_1
+  - first:
+      213: -7090875595906926435
+    second: Cyberpunk_City_Props_2
+  - first:
+      213: -5586055183303033356
+    second: Cyberpunk_City_Props_3
+  - first:
+      213: 6583292782274140102
+    second: Cyberpunk_City_Props_4
+  - first:
+      213: 5735834642038737910
+    second: Cyberpunk_City_Props_5
+  - first:
+      213: -6530208205881302728
+    second: Cyberpunk_City_Props_6
+  - first:
+      213: 1022275567954266834
+    second: Cyberpunk_City_Props_7
+  - first:
+      213: 2817405629581254753
+    second: Cyberpunk_City_Props_8
+  - first:
+      213: 457473269691576307
+    second: Cyberpunk_City_Props_9
+  - first:
+      213: 5776813907147085226
+    second: Cyberpunk_City_Props_10
+  - first:
+      213: 5491490536865318908
+    second: Cyberpunk_City_Props_11
+  - first:
+      213: 5674321942223954555
+    second: Cyberpunk_City_Props_12
+  - first:
+      213: 2960852598110253651
+    second: Cyberpunk_City_Props_13
+  - first:
+      213: 9087742757845464360
+    second: Cyberpunk_City_Props_14
+  - first:
+      213: -1419701825304291546
+    second: Cyberpunk_City_Props_15
+  - first:
+      213: 2006898844412059816
+    second: Cyberpunk_City_Props_16
+  - first:
+      213: 4773282918840308787
+    second: Cyberpunk_City_Props_17
+  - first:
+      213: 8059636037611358987
+    second: Cyberpunk_City_Props_18
+  - first:
+      213: -6773380895088679001
+    second: Cyberpunk_City_Props_19
+  - first:
+      213: 2748097656247930079
+    second: Cyberpunk_City_Props_20
+  - first:
+      213: 1271221715433629580
+    second: Cyberpunk_City_Props_21
+  - first:
+      213: 6005433209411233031
+    second: Cyberpunk_City_Props_22
+  - first:
+      213: -4554408375641182847
+    second: Cyberpunk_City_Props_23
+  - first:
+      213: 3104071066357300127
+    second: Cyberpunk_City_Props_24
+  - first:
+      213: 4113502922797679854
+    second: Cyberpunk_City_Props_25
+  - first:
+      213: 8888252585231209859
+    second: Cyberpunk_City_Props_26
+  - first:
+      213: -3700736235423069212
+    second: Cyberpunk_City_Props_27
+  - first:
+      213: 7826716525103089831
+    second: Cyberpunk_City_Props_28
+  - first:
+      213: 7342623379364329790
+    second: Cyberpunk_City_Props_29
+  - first:
+      213: 7752810783582498698
+    second: Cyberpunk_City_Props_30
+  - first:
+      213: -179553219811218371
+    second: Cyberpunk_City_Props_31
+  - first:
+      213: -4969363579714403926
+    second: Cyberpunk_City_Props_32
+  - first:
+      213: 4731449946733210741
+    second: Cyberpunk_City_Props_33
+  - first:
+      213: -5069029001266252935
+    second: Cyberpunk_City_Props_34
+  - first:
+      213: 8505021046358565598
+    second: Cyberpunk_City_Props_35
+  - first:
+      213: 8389248914507234136
+    second: Cyberpunk_City_Props_36
+  - first:
+      213: 6783776845347153043
+    second: Cyberpunk_City_Props_37
+  - first:
+      213: 2575367796893832775
+    second: Cyberpunk_City_Props_38
+  - first:
+      213: 6909244816654965076
+    second: Cyberpunk_City_Props_39
+  - first:
+      213: 3649708207702985944
+    second: Cyberpunk_City_Props_40
+  - first:
+      213: -4825107153564222178
+    second: Cyberpunk_City_Props_41
+  - first:
+      213: 2497908132376944549
+    second: Cyberpunk_City_Props_42
+  - first:
+      213: 9150986230875118094
+    second: Cyberpunk_City_Props_43
+  - first:
+      213: 2631282026853502397
+    second: Cyberpunk_City_Props_44
+  - first:
+      213: 4125880736856805615
+    second: Cyberpunk_City_Props_45
+  - first:
+      213: 4609324033994486844
+    second: Cyberpunk_City_Props_46
+  - first:
+      213: -3173072322936456555
+    second: Cyberpunk_City_Props_47
+  - first:
+      213: -8224864179984471089
+    second: Cyberpunk_City_Props_48
+  - first:
+      213: 7586283780668566676
+    second: Cyberpunk_City_Props_49
+  - first:
+      213: -457959001670856009
+    second: Cyberpunk_City_Props_50
+  - first:
+      213: -4424950211610458252
+    second: Cyberpunk_City_Props_51
+  - first:
+      213: 3223970860942415877
+    second: Cyberpunk_City_Props_52
+  - first:
+      213: -4045836439209884236
+    second: Cyberpunk_City_Props_53
+  - first:
+      213: -4725226857364584284
+    second: Cyberpunk_City_Props_54
+  - first:
+      213: -466930093591176272
+    second: Cyberpunk_City_Props_55
+  - first:
+      213: -3148609060271719470
+    second: Cyberpunk_City_Props_56
+  - first:
+      213: 468893099298163661
+    second: Cyberpunk_City_Props_57
+  - first:
+      213: 2222792100116592668
+    second: Cyberpunk_City_Props_58
+  - first:
+      213: -7508873093566497116
+    second: Cyberpunk_City_Props_59
+  - first:
+      213: -7082918145742741549
+    second: Cyberpunk_City_Props_60
+  - first:
+      213: 2167327478647514436
+    second: Cyberpunk_City_Props_61
+  - first:
+      213: 1904782532570208008
+    second: Cyberpunk_City_Props_62
+  - first:
+      213: -389014228497098065
+    second: Cyberpunk_City_Props_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 514
+        width: 91
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d696dcfc56c41c7b0800000000000000
+      internalID: -5205795694101829267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 520
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab66242cbcff810800000000000000
+      internalID: 1801382411169610306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 520
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d983b7fe636289d90800000000000000
+      internalID: -7090875595906926435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 544
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd3e7f28685a72b0800000000000000
+      internalID: -5586055183303033356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7d7dbd7ed8c5b50800000000000000
+      internalID: 6583292782274140102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 512
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb49199737c99f40800000000000000
+      internalID: 5735834642038737910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 448
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831aa1b3c3a0065a0800000000000000
+      internalID: -6530208205881302728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 484
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da897a763adf2e00800000000000000
+      internalID: 1022275567954266834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 490
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160606b2e7f691720800000000000000
+      internalID: 2817405629581254753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 484
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffe336d385495600800000000000000
+      internalID: 457473269691576307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 465
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5d90544ad5b2050800000000000000
+      internalID: 5776813907147085226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 465
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7c6415c81b53c40800000000000000
+      internalID: 5491490536865318908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 465
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72a67b1ebd3fbe40800000000000000
+      internalID: 5674321942223954555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 479
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35277ae20cf071920800000000000000
+      internalID: 2960852598110253651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 449
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825f18ba3e52e1e70800000000000000
+      internalID: 9087742757845464360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 432
+        width: 65
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62793c736b43c4ce0800000000000000
+      internalID: -1419701825304291546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0a251bddfe9db10800000000000000
+      internalID: 2006898844412059816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 422
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3349ae5568b1e3240800000000000000
+      internalID: 4773282918840308787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 420
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b03c0464499df60800000000000000
+      internalID: 8059636037611358987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 425
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a762db76fd1002a0800000000000000
+      internalID: -6773380895088679001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 424
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdccdb02244332620800000000000000
+      internalID: 2748097656247930079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 426
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c872f2b3a6944a110800000000000000
+      internalID: 1271221715433629580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 422
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7056a419fa5975350800000000000000
+      internalID: 6005433209411233031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 432
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18de7df66bd7bc0c0800000000000000
+      internalID: -4554408375641182847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 418
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b7bc35030e31b20800000000000000
+      internalID: 3104071066357300127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 368
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee403ef2d19161930800000000000000
+      internalID: 4113502922797679854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 373
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38557a062aa695b70800000000000000
+      internalID: 8888252585231209859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 368
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb0130500854acc0800000000000000
+      internalID: -3700736235423069212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 389
+        width: 98
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8037c36351e9c60800000000000000
+      internalID: 7826716525103089831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 388
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e393d768f0d36e560800000000000000
+      internalID: 7342623379364329790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 388
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fa04ed454879b60800000000000000
+      internalID: 7752810783582498698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_31
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 369
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cefd24c49128df0800000000000000
+      internalID: -179553219811218371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_32
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 366
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa10c5f2726490bb0800000000000000
+      internalID: -4969363579714403926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 357
+        width: 98
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ce29388ac79a140800000000000000
+      internalID: 4731449946733210741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_34
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 370
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9733f5feaf037a9b0800000000000000
+      internalID: -5069029001266252935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 354
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed26c638497e70670800000000000000
+      internalID: 8505021046358565598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_36
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 353
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bf88980799c6470800000000000000
+      internalID: 8389248914507234136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 299
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394ef6e4911d42e50800000000000000
+      internalID: 6783776845347153043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74656dbcd5b8db320800000000000000
+      internalID: 2575367796893832775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 294
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4599de2dd8192ef50800000000000000
+      internalID: 6909244816654965076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 304
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcc6f5274e56a230800000000000000
+      internalID: 3649708207702985944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dbb9cbb96c90db0800000000000000
+      internalID: -4825107153564222178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_42
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 305
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af13ef363a5aa220800000000000000
+      internalID: 2497908132376944549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 302
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a5dc33e75defe70800000000000000
+      internalID: 9150986230875118094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 255
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd0972ff01348420800000000000000
+      internalID: 2631282026853502397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_45
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 255
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe01af99ba2124930800000000000000
+      internalID: 4125880736856805615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_46
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 255
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3479e4a9cb97ff30800000000000000
+      internalID: 4609324033994486844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 193
+        width: 19
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59abfb0b88bf6f3d0800000000000000
+      internalID: -3173072322936456555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_48
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 255
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbe0320b996bdd80800000000000000
+      internalID: -8224864179984471089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_49
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 224
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cae0897e4e74960800000000000000
+      internalID: 7586283780668566676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_50
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b257bfd6b005a9f0800000000000000
+      internalID: -457959001670856009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 223
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4774b281a3b6792c0800000000000000
+      internalID: -4424950211610458252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_52
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 223
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508deacaa68ddbc20800000000000000
+      internalID: 3223970860942415877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_53
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 191
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5409db13d4ad7c0800000000000000
+      internalID: -4045836439209884236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_54
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 194
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a806a3653f9c6eb0800000000000000
+      internalID: -4725226857364584284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbde84cd812589f0800000000000000
+      internalID: -466930093591176272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 191
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db7de1edb4ed44d0800000000000000
+      internalID: -3148609060271719470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 191
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb8c4d1ac7d18600800000000000000
+      internalID: 468893099298163661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c187ef063a1f8de10800000000000000
+      internalID: 2222792100116592668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_59
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 191
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aefa7284bf1bc790800000000000000
+      internalID: -7508873093566497116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfd5dd297b64bd90800000000000000
+      internalID: -7082918145742741549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4456abcdbd4e31e10800000000000000
+      internalID: 2167327478647514436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80757341f952f6a10800000000000000
+      internalID: 1904782532570208008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk_City_Props_63
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa9bd9ce91f99af0800000000000000
+      internalID: -389014228497098065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cyberpunk_City_Props_0: -5205795694101829267
+      Cyberpunk_City_Props_1: 1801382411169610306
+      Cyberpunk_City_Props_10: 5776813907147085226
+      Cyberpunk_City_Props_11: 5491490536865318908
+      Cyberpunk_City_Props_12: 5674321942223954555
+      Cyberpunk_City_Props_13: 2960852598110253651
+      Cyberpunk_City_Props_14: 9087742757845464360
+      Cyberpunk_City_Props_15: -1419701825304291546
+      Cyberpunk_City_Props_16: 2006898844412059816
+      Cyberpunk_City_Props_17: 4773282918840308787
+      Cyberpunk_City_Props_18: 8059636037611358987
+      Cyberpunk_City_Props_19: -6773380895088679001
+      Cyberpunk_City_Props_2: -7090875595906926435
+      Cyberpunk_City_Props_20: 2748097656247930079
+      Cyberpunk_City_Props_21: 1271221715433629580
+      Cyberpunk_City_Props_22: 6005433209411233031
+      Cyberpunk_City_Props_23: -4554408375641182847
+      Cyberpunk_City_Props_24: 3104071066357300127
+      Cyberpunk_City_Props_25: 4113502922797679854
+      Cyberpunk_City_Props_26: 8888252585231209859
+      Cyberpunk_City_Props_27: -3700736235423069212
+      Cyberpunk_City_Props_28: 7826716525103089831
+      Cyberpunk_City_Props_29: 7342623379364329790
+      Cyberpunk_City_Props_3: -5586055183303033356
+      Cyberpunk_City_Props_30: 7752810783582498698
+      Cyberpunk_City_Props_31: -179553219811218371
+      Cyberpunk_City_Props_32: -4969363579714403926
+      Cyberpunk_City_Props_33: 4731449946733210741
+      Cyberpunk_City_Props_34: -5069029001266252935
+      Cyberpunk_City_Props_35: 8505021046358565598
+      Cyberpunk_City_Props_36: 8389248914507234136
+      Cyberpunk_City_Props_37: 6783776845347153043
+      Cyberpunk_City_Props_38: 2575367796893832775
+      Cyberpunk_City_Props_39: 6909244816654965076
+      Cyberpunk_City_Props_4: 6583292782274140102
+      Cyberpunk_City_Props_40: 3649708207702985944
+      Cyberpunk_City_Props_41: -4825107153564222178
+      Cyberpunk_City_Props_42: 2497908132376944549
+      Cyberpunk_City_Props_43: 9150986230875118094
+      Cyberpunk_City_Props_44: 2631282026853502397
+      Cyberpunk_City_Props_45: 4125880736856805615
+      Cyberpunk_City_Props_46: 4609324033994486844
+      Cyberpunk_City_Props_47: -3173072322936456555
+      Cyberpunk_City_Props_48: -8224864179984471089
+      Cyberpunk_City_Props_49: 7586283780668566676
+      Cyberpunk_City_Props_5: 5735834642038737910
+      Cyberpunk_City_Props_50: -457959001670856009
+      Cyberpunk_City_Props_51: -4424950211610458252
+      Cyberpunk_City_Props_52: 3223970860942415877
+      Cyberpunk_City_Props_53: -4045836439209884236
+      Cyberpunk_City_Props_54: -4725226857364584284
+      Cyberpunk_City_Props_55: -466930093591176272
+      Cyberpunk_City_Props_56: -3148609060271719470
+      Cyberpunk_City_Props_57: 468893099298163661
+      Cyberpunk_City_Props_58: 2222792100116592668
+      Cyberpunk_City_Props_59: -7508873093566497116
+      Cyberpunk_City_Props_6: -6530208205881302728
+      Cyberpunk_City_Props_60: -7082918145742741549
+      Cyberpunk_City_Props_61: 2167327478647514436
+      Cyberpunk_City_Props_62: 1904782532570208008
+      Cyberpunk_City_Props_63: -389014228497098065
+      Cyberpunk_City_Props_7: 1022275567954266834
+      Cyberpunk_City_Props_8: 2817405629581254753
+      Cyberpunk_City_Props_9: 457473269691576307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
