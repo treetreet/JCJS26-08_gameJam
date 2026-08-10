@@ -7,10 +7,10 @@ namespace Player
     {
         private Vector3 m_InputVector;
         private bool m_JumpInput;
+        private bool m_ClickInput;
 
         public Vector3 InputVector => m_InputVector;
         public bool JumpInput => m_JumpInput;
-
         private void Update()
         {
             HandleInput();

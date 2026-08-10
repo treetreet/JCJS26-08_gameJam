@@ -27,8 +27,14 @@ namespace Player
             m_Animator.SetBool(k_JumpState, m_Rigidbody.linearVelocity.y > 0);
             m_Animator.SetBool(k_FallState, m_Rigidbody.linearVelocity.y < 0);
             
+            
+            /*
             if(inputVector.x > 0)           m_SpriteRenderer.flipX = true;
             else if(inputVector.x < 0)      m_SpriteRenderer.flipX = false;
+            */
+            
+            if(inputVector.x > 0)           transform.rotation = new Quaternion(0,180,0,0);
+            else if (inputVector.x < 0) transform.rotation = new Quaternion(0, 0, 0, 0);
         }
     }
 }
