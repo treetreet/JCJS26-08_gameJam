@@ -7,10 +7,11 @@ namespace Player
     {
         private Vector3 m_InputVector;
         private bool m_JumpInput;
-        private bool m_ClickInput;
+        private bool m_DashInput;
 
         public Vector3 InputVector => m_InputVector;
         public bool JumpInput => m_JumpInput;
+        public bool DashInput => m_DashInput;
         private void Update()
         {
             HandleInput();
@@ -32,7 +33,8 @@ namespace Player
 
             m_InputVector = new Vector3(xInput, 0f, 0f);
 
-            m_JumpInput = Keyboard.current.wKey.wasPressedThisFrame;
+            m_JumpInput = Keyboard.current.wKey.wasPressedThisFrame ||  Keyboard.current.spaceKey.wasPressedThisFrame;
+            m_DashInput = Keyboard.current.shiftKey.wasPressedThisFrame;
         }
     }
 }

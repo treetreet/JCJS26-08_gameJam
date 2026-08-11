@@ -26,6 +26,7 @@ namespace Player
             // movement
             m_PlayerMovement.Move(m_PlayerInput.InputVector);
             if (m_PlayerInput.JumpInput) m_PlayerMovement.Jump();
+            if (m_PlayerInput.DashInput) m_PlayerMovement.Dash();
             
             // animate
             m_PlayerAnimator.Animate(m_PlayerInput.InputVector);
