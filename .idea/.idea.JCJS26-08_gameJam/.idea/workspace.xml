@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Scripts/Light Presenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Scripts/Light Presenter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <updated>1786336231785</updated>
       <workItem from="1786336238603" duration="5471000" />
       <workItem from="1786435991107" duration="678000" />
-      <workItem from="1786438808631" duration="1595000" />
+      <workItem from="1786438808631" duration="5991000" />
     </task>
     <servers />
   </component>
