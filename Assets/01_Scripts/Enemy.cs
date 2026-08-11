@@ -1,112 +1,109 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum EnemyState
+
+namespace TempEnemy
 {
-    Patrol,
-    Detect,
-    Chase,
-    Attack,
-}
-
-public class Enemy : MonoBehaviour
-{
-    [Header("Enemy Stat")]
-    public EnemyStat enemyStat;
-    protected EnemyState enemyState;
-
-    [Header("Enemy Components")]
-    [SerializeField] private List<Transform> patrolPoints;
-    [SerializeField] private Rigidbody2D _rigid;
-    [SerializeField] private Animator _animator;
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-
-    [Header("Enemy Settings")]
-    [SerializeField] private Vector2 _moveDir;
-    [SerializeField] private LayerMask _groundLayer;
-
-
-    void Start()
+    public interface IDamageable
     {
-        enemyState = EnemyState.Patrol;
-        _rigid = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-        _moveDir = Vector2.left;
-        _spriteRenderer.flipX = _moveDir.x > 0;
+        void Damaged();
     }
 
-    void Update()
+    public interface IEnemy
     {
-        Debug.Log($"Current Enemy State: {enemyState}");
-        switch (enemyState)
+        public EnemyStat enemyStat { get; }
+    }
+
+    public enum EnemyState
+    {
+        Patrol,
+        Detect,
+        Chase,
+        Attack,
+        Die
+    }
+
+    public class Enemy : MonoBehaviour, IDamageable, IEnemy
+    {
+        [Header("Enemy Stat")]
+        [field: SerializeField] public EnemyStat enemyStat { get; private set; }
+        protected EnemyState enemyState;
+
+        [Header("Enemy Components")]
+        [SerializeField] private EnemyVFX m_EnemyVFX;
+        [SerializeField] private GameObject _player;
+
+
+
+
+        [Header("Enemy Settings")]
+        private EnemyAI _enemyAI;
+
+        void Start()
         {
-            case EnemyState.Patrol:
-                Patrol();
-                break;
-            case EnemyState.Detect:
-                Detect();
-                break;
-            case EnemyState.Chase:
-                Chase();
-                break;
-            case EnemyState.Attack:
-                Attack();
-                break;
+            enemyState = EnemyState.Patrol;
+            m_EnemyVFX = GetComponent<EnemyVFX>();
+            _enemyAI = GetComponent<EnemyAI>();
+            _player = GameObject.FindWithTag("Player");
         }
-    }
 
-    protected void Move()
-    {
-        if (_moveDir != Vector2.zero)
+       
+        public virtual void ChangeState()
         {
-            _rigid.linearVelocity = _moveDir * enemyStat.moveSpeed;
-        }
-    }
+            if(enemyState == EnemyState.Die)
+                return;
 
-    protected void DetectHill()
-    {
-        Vector2 rayOrigin = transform.position + new Vector3(_moveDir.x, 0);
+            float distanceToPlayer = Vector2.Distance(transform.position, _player.transform.position);
 
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, 1f, _groundLayer);
-
-        if (hit.collider == null)
-        {
-            _moveDir *= -1;
-
-            if(_moveDir.x > 0)
+            // 공격 범위 내에 들어오면 공격 상태로 전환
+            if (distanceToPlayer <= enemyStat.attackRange)
             {
-                _spriteRenderer.flipX = true;
+                enemyState = EnemyState.Attack;
+                return;
             }
-            else if(_moveDir.x < 0)
+
+            // 감지 범위를 벗어나면 다시 순찰 상태로 복귀
+            if (_player == null || distanceToPlayer > enemyStat.detectionRange)
             {
-                _spriteRenderer.flipX = false;
+
+                enemyState = EnemyState.Patrol;
+                return;
+            }
+            else
+            {
+                enemyState = EnemyState.Chase;
             }
         }
-    }
 
-    protected virtual void Patrol()
-    {
-    }
+        void Update()
+        {
+            Debug.Log($"Current Enemy State: {enemyState}");
+            ChangeState();
+            switch (enemyState)
+            {
+                case EnemyState.Die:
+                    break;
+                case EnemyState.Patrol:
+                    _enemyAI.Patrol();
+                    break;
+                case EnemyState.Chase:
+                    _enemyAI.Chase();
+                    break;
+                case EnemyState.Attack:
+                    _enemyAI.Attack();
+                    break;
+            }
+        }
 
-    protected virtual void Detect()
-    {
-        // Implement detect behavior
-    }
+        public void Damaged()
+        {
+            m_EnemyVFX.DamagedEffect();
+            // TODO : 플레이어의 공격력 받아와 체력 감소 로직
+            if (enemyStat.Health <= 0)
+            {
+                StartCoroutine(_enemyAI.Die());
+            }
+        }
 
-    protected virtual void Chase()
-    {
-        // Implement chase behavior
-    }
-
-    protected virtual void Attack()
-    {
-        // Implement attack behavior
-    }
-
-    // TODO : Implement the ChangeState method to handle state transitions based on conditions
-    protected virtual void ChangeState(EnemyState newState)
-    {
-        enemyState = newState;
     }
 }
