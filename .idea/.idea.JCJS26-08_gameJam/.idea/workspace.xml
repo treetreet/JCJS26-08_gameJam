@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="" />
+    <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI Scripts/Light Presenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Scripts/Light Presenter.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/15471c8da2ab47848cd50a89d3faf51022c00/30/0cb05c0d/AudioMixer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -87,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1786336231785</updated>
       <workItem from="1786336238603" duration="5471000" />
-      <workItem from="1786435993109" duration="2000" />
+      <workItem from="1786435991107" duration="678000" />
+      <workItem from="1786438808631" duration="1595000" />
     </task>
     <servers />
   </component>
