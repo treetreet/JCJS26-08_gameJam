@@ -7,7 +7,13 @@ using Random = UnityEngine.Random;
 public class TowerLogic : MonoBehaviour
 {
     [SerializeField] private GameObject _beam;
+    [SerializeField] private AudioSource _audioSource;
 
+
+    void Awake()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Start()
@@ -26,5 +32,10 @@ public class TowerLogic : MonoBehaviour
             }
             yield return new WaitForSeconds(1f);
         }
+    }
+
+    void OnDestroy()
+    {
+        _audioSource.Play();
     }
 }
