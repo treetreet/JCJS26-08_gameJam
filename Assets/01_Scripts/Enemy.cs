@@ -125,10 +125,9 @@ namespace TempEnemy
                 break;
                 case EnemyType.Error:
                     enemyStat.detectionRange = GimmickManager.instance.m_LightSlider.value * 10f;
-                    Debug.Log(enemyStat.detectionRange);
                 break;
                 case EnemyType.Hear:
-                    enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value * 30f;
+                    enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value + 40;
                 break;
             }
         }

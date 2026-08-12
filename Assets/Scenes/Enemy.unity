@@ -1323,10 +1323,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HearMonster
       objectReference: {fileID: 0}
-    - target: {fileID: 563469846583491069, guid: 7f1ec3b50ffb80e42afda776d17f9cc5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6990488861139678210, guid: 7f1ec3b50ffb80e42afda776d17f9cc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.18667
@@ -1386,7 +1382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2708179669190918212, guid: 1c8d63da4cc53294c8c2c1d129fb782c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6542739570041441664, guid: 1c8d63da4cc53294c8c2c1d129fb782c, type: 3}
       propertyPath: m_LocalPosition.x

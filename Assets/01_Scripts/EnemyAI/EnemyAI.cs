@@ -29,7 +29,7 @@ namespace TempEnemy
 
         // 지정된 순찰포인트들을 따라 이동하는 순찰 로직
 
-        void Start()
+        internal virtual void Start()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _rigid = GetComponent<Rigidbody2D>();
@@ -51,7 +51,8 @@ namespace TempEnemy
             {
                 Debug.LogWarning("Patrol points are not assigned.");
                 _moveDir = Vector2.zero;
-                _animator.SetBool(moveHash, false);
+                if(_animator != null)
+                    _animator.SetBool(moveHash, false);
                 return;
             }
 
@@ -99,7 +100,8 @@ namespace TempEnemy
             float distToPlayer = Mathf.Abs(this.transform.position.x - _player.transform.position.x);
             if (distToPlayer <= _enemy.enemyStat.attackRange)
             {
-                _animator.SetTrigger(attackHash);
+                if(_animator != null)
+                    _animator.SetTrigger(attackHash);
 
                 // 3. OverlapBox 오프셋 조정 (공격 사거리 중간 지점에 생성하는 것이 일반적)
                 // 예: 사거리의 절반 만큼 앞에 생성하고 크기를 사거리에 맞추거나, 사거리 끝 지점에 생성하되 범위를 넓힘.
@@ -135,7 +137,8 @@ namespace TempEnemy
             {
                 // Y축 속도는 보존하여 중력의 영향을 받도록 처리합니다.
                 _rigid.linearVelocity = new Vector2(_moveDir.x * _enemy.enemyStat.moveSpeed, _rigid.linearVelocity.y);
-                _animator.SetBool(moveHash, true);
+                if(_animator != null)
+                    _animator.SetBool(moveHash, true);
             }
         }
 
