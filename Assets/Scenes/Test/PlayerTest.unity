@@ -480,6 +480,7 @@ GameObject:
   - component: {fileID: 1317438168}
   - component: {fileID: 1317438169}
   - component: {fileID: 1317438174}
+  - component: {fileID: 1317438175}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -593,9 +594,6 @@ MonoBehaviour:
   m_MaxJumpCount: 2
   m_DashForce: 8
   m_DashCooldown: 3
-  m_DashDamping: 0.2
-  m_IsDashCool: 0
-  m_IsDashing: 0
 --- !u!114 &1317438170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +713,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e04b02a74948ff92dd509c12c7ed3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.PlayerAnimator
+--- !u!114 &1317438175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317438164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337dc4e76cf00574ab3c8581a733fefe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
 --- !u!1 &1436635189
 GameObject:
   m_ObjectHideFlags: 0

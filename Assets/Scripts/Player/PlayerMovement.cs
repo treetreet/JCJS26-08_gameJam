@@ -17,11 +17,14 @@ namespace Player
         [Header("Dash")]
         [SerializeField] private float m_DashForce = 8f;
         [SerializeField] private float m_DashCooldown = 3f;
+        [SerializeField] private float m_DashInvincibleTime = 0.3f;
         
         private Rigidbody2D m_Rigidbody;
         private int m_JumpCount;
         private bool m_IsDashCool;
 
+        public float DashInvincibleTime => m_DashInvincibleTime;
+        
         private void Awake()
         {
             m_Rigidbody = GetComponent<Rigidbody2D>();
