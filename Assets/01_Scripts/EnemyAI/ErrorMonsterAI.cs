@@ -16,7 +16,7 @@ namespace TempEnemy
         // TODO: Implement the Attack method for ErrorMonster
         internal override void Attack()
         {
-            // Implement attack behavior for ErrorMonster
+           base.Attack();
         }
     }
 }

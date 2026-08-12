@@ -64,13 +64,6 @@ namespace TempEnemy
 
             float distanceToPlayer = Vector2.Distance(transform.position, _player.transform.position);
 
-            // 공격 범위 내에 들어오면 공격 상태로 전환
-            if (distanceToPlayer <= enemyStat.attackRange)
-            {
-                enemyState = EnemyState.Attack;
-                return;
-            }
-
             // 감지 범위를 벗어나면 다시 순찰 상태로 복귀
             if (_player == null || distanceToPlayer > enemyStat.detectionRange)
             {
@@ -82,11 +75,19 @@ namespace TempEnemy
             {
                 enemyState = EnemyState.Chase;
             }
+            // 공격 범위 내에 들어오면 공격 상태로 전환
+            if (distanceToPlayer <= enemyStat.attackRange)
+            {
+                enemyState = EnemyState.Attack;
+                return;
+            }
+
         }
 
         void Update()
         {
             Debug.Log($"Current Enemy State: {enemyState}");
+            SetDetectRange();
             ChangeState();
             switch (enemyState)
             {
@@ -119,16 +120,15 @@ namespace TempEnemy
             switch (enemyType)
             {
                 case EnemyType.Bat:
-                    if(GimmickManager.instance.m_LightSlider.value < 10)
-                    {
-                        Vector2.MoveTowards(this.transform.position, _player.transform.position, Time.deltaTime * enemyStat.moveSpeed);
-                    }
+                    if(GimmickManager.instance.m_LightSlider.value > 0.2f)
+                        enemyStat.detectionRange = 0;
                 break;
                 case EnemyType.Error:
-                    enemyStat.detectionRange = GimmickManager.instance.m_LightSlider.value * 0.05f;
+                    enemyStat.detectionRange = GimmickManager.instance.m_LightSlider.value * 10f;
+                    Debug.Log(enemyStat.detectionRange);
                 break;
                 case EnemyType.Hear:
-                    enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value * 0.3f;
+                    enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value * 30f;
                 break;
             }
         }
