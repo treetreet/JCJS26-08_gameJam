@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,27 @@ namespace Player
         [SerializeField] private float m_MaxHealth = 100f;
         [SerializeField] private float m_Health = 100f;
 
+        public float MaxHealth => m_MaxHealth;
+        public float Health => m_Health;
+        
+        /// <summary>
+        ///Health, MaxHealth
+        /// </summary>
+        public event Action<float, float> OnHealthChanged;
+
+        [ContextMenu("IncreaseHealth10")]
+        public void IncreaseHealth10()
+        {
+            IncreaseHealth(10);
+        }
+        
+        [ContextMenu("DecreaseHealth 10")]
+        public void DecreaseHealth10()
+        {
+            DecreaseHealth(10);
+        }
+        
+        
         /// <summary>
         /// Health += amount
         /// </summary>
@@ -16,6 +38,8 @@ namespace Player
         {
             m_Health += amount;
             if(m_Health > m_MaxHealth) m_Health = m_MaxHealth;
+            
+            OnHealthChanged?.Invoke(m_Health, m_MaxHealth);
         }
 
         /// <summary>
@@ -28,8 +52,12 @@ namespace Player
             if (m_Health < 0)
             {
                 m_Health = 0;
+                OnHealthChanged?.Invoke(m_Health, m_MaxHealth);
+                
                 PlayerDead();    
             }
+            
+            OnHealthChanged?.Invoke(m_Health, m_MaxHealth);
         }
 
         public void InvincibleTime(float time)

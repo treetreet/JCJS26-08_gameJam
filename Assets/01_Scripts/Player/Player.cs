@@ -9,6 +9,7 @@ namespace Player
         private PlayerMovement m_PlayerMovement;
         private PlayerAnimator m_PlayerAnimator;
         private PlayerHealth m_PlayerHealth;
+        private PlayerHealthUI m_PlayerHealthUI;
 
         private void Awake()
         {
@@ -21,6 +22,7 @@ namespace Player
             m_PlayerMovement = GetComponent<PlayerMovement>();
             m_PlayerAnimator = GetComponent<PlayerAnimator>();
             m_PlayerHealth = GetComponent<PlayerHealth>();
+            m_PlayerHealthUI = transform.Find("Health Canvas").GetComponent<PlayerHealthUI>();
         }
 
         private void Update()
@@ -36,6 +38,7 @@ namespace Player
             
             // animate
             m_PlayerAnimator.Animate(m_PlayerInput.InputVector);
+            m_PlayerHealthUI.ChangeFillOrigin(m_PlayerInput.InputVector.x);
         }
     }
 }
