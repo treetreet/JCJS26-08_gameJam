@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3709d9679b566bc4ba0f20b7f9b892a2, type: 3}
   m_Name: ErrorStats
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStat
-  Health: -1
+  Health: 100
   damage: 1
   attackSpeed: 1
   attackRange: 1.5
