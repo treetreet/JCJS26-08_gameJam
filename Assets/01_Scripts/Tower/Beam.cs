@@ -3,7 +3,7 @@ using UnityEngine;
 public class Beam : MonoBehaviour
 {
     float timeAfterGened = 0f;
-    bool hasReflected = false;
+    public bool hasReflected = false;
     Camera mainCamera;
 
     void Start()
