@@ -6,7 +6,7 @@ namespace TempEnemy
 {
     public interface IDamageable
     {
-        void Damaged();
+        void Damaged(int damage);
     }
 
     public interface IEnemy
@@ -23,10 +23,19 @@ namespace TempEnemy
         Die
     }
 
+    public enum EnemyType
+    {
+        Bat,
+        Error,
+        Hear,
+        Boss
+    }
+
     public class Enemy : MonoBehaviour, IDamageable, IEnemy
     {
         [Header("Enemy Stat")]
         [field: SerializeField] public EnemyStat enemyStat { get; private set; }
+        [SerializeField] public EnemyType enemyType;
         protected EnemyState enemyState;
 
         [Header("Enemy Components")]
@@ -95,13 +104,27 @@ namespace TempEnemy
             }
         }
 
-        public void Damaged()
+        public void Damaged(int damage)
         {
             m_EnemyVFX.DamagedEffect();
-            // TODO : 플레이어의 공격력 받아와 체력 감소 로직
+            enemyStat.Health -= damage;
             if (enemyStat.Health <= 0)
             {
                 StartCoroutine(_enemyAI.Die());
+            }
+        }
+
+        protected void SetDetectRange()
+        {
+            switch (enemyType)
+            {
+                case EnemyType.Bat:
+                
+                break;
+                case EnemyType.Error:
+                break;
+                case EnemyType.Hear:
+                break;
             }
         }
 
