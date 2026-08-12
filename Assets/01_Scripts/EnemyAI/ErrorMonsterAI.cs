@@ -12,8 +12,7 @@ namespace TempEnemy
         {
             base.Chase();
         }
-
-        // TODO: Implement the Attack method for ErrorMonster
+        
         internal override void Attack()
         {
            base.Attack();
