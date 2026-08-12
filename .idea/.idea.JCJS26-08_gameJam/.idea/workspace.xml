@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealthUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealthUI.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/EnemyStats/ErrorStats.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/EnemyStats/ErrorStats.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/PlayerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/PlayerTest.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +98,7 @@
       <workItem from="1786435991107" duration="678000" />
       <workItem from="1786438808631" duration="5991000" />
       <workItem from="1786459527010" duration="1205000" />
-      <workItem from="1786543887743" duration="1427000" />
+      <workItem from="1786543887743" duration="3363000" />
     </task>
     <servers />
   </component>
