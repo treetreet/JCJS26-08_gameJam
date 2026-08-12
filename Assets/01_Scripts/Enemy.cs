@@ -119,11 +119,16 @@ namespace TempEnemy
             switch (enemyType)
             {
                 case EnemyType.Bat:
-                
+                    if(GimmickManager.instance.m_LightSlider.value < 10)
+                    {
+                        Vector2.MoveTowards(this.transform.position, _player.transform.position, Time.deltaTime * enemyStat.moveSpeed);
+                    }
                 break;
                 case EnemyType.Error:
+                    enemyStat.detectionRange = GimmickManager.instance.m_LightSlider.value * 0.05f;
                 break;
                 case EnemyType.Hear:
+                    enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value * 0.3f;
                 break;
             }
         }

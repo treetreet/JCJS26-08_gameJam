@@ -75,7 +75,7 @@ namespace TempEnemy
             Move();
         }
 
-        // TODO : 어택 애니메이션 연결, 플레이어에 닿았을 시 체력 깎이는 로직 구현
+        // TODO : 어택 애니메이션 연결, 플레이어 공격모션에 닿았을 시 체력 깎이는 로직 구현
         internal virtual void Attack()
         {
             
