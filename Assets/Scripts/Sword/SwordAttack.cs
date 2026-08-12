@@ -19,5 +19,13 @@ namespace Sword
         {
             m_Collider2D.enabled = value == 1;
         }
+
+        void OnCollisionEnter2D(Collision2D col)
+        {
+            if(col.gameObject.CompareTag("Enemy"))
+            {
+                col.gameObject.GetComponent<IDamageable>().Damaged(10);
+            }
+        }
     }
 }

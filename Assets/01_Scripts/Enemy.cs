@@ -2,17 +2,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace TempEnemy
-{
+    public interface IEnemy
+    {
+        public EnemyStat enemyStat { get; }
+    }
+    
     public interface IDamageable
     {
         void Damaged(int damage);
     }
 
-    public interface IEnemy
-    {
-        public EnemyStat enemyStat { get; }
-    }
+namespace TempEnemy
+{
+
 
     public enum EnemyState
     {

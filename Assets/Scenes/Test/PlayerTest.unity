@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 1023580101}
   m_Layer: 0
   m_Name: Sword
-  m_TagString: Untagged
+  m_TagString: SWORD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -593,9 +593,6 @@ MonoBehaviour:
   m_MaxJumpCount: 2
   m_DashForce: 8
   m_DashCooldown: 3
-  m_DashDamping: 0.2
-  m_IsDashCool: 0
-  m_IsDashing: 0
 --- !u!114 &1317438170
 MonoBehaviour:
   m_ObjectHideFlags: 0
