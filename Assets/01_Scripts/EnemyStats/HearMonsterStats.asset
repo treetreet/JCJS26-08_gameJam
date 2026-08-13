@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: HearMonsterStats
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStat
   Health: 100
-  damage: 25
-  attackSpeed: 3
+  damage: 20
+  attackSpeed: 8
   attackRange: 5
   moveSpeed: 10
   detectionRange: 0
