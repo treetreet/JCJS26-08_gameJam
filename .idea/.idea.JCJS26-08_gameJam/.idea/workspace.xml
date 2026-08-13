@@ -6,13 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08_Animation/Sword/AttackMotion1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08_Animation/Sword/AttackMotion1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08_Animation/Sword/AttackMotion2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08_Animation/Sword/AttackMotion2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/EnemyAI/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/EnemyAI/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Sword/SwordAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Sword/SwordAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Images/Character/Player-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Images/Character/Player-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Images/Character/sword.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Images/Character/sword.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/PlayerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/PlayerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSystem_Actions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSystem_Actions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1786459527010" duration="1205000" />
       <workItem from="1786543887743" duration="3363000" />
       <workItem from="1786550345184" duration="6000" />
-      <workItem from="1786550414703" duration="769000" />
+      <workItem from="1786550414703" duration="6492000" />
     </task>
     <servers />
   </component>

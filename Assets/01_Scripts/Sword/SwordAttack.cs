@@ -5,6 +5,7 @@ namespace Sword
 {
     public class SwordAttack : MonoBehaviour
     {
+        [SerializeField] private int m_Damage = 30;
         private CapsuleCollider2D m_Collider2D;
         
         private void Awake()
@@ -20,11 +21,13 @@ namespace Sword
             m_Collider2D.enabled = value == 1;
         }
 
-        void OnCollisionEnter2D(Collision2D col)
+        private void OnTriggerEnter2D(Collider2D col)
         {
+            Debug.Log("Collision Enter : " + col.gameObject.name);
             if(col.gameObject.CompareTag("Enemy"))
             {
-                col.gameObject.GetComponent<IDamageable>().Damaged(10);
+                Debug.Log(col.gameObject.name + "Damaged");
+                col.gameObject.GetComponent<IDamageable>().Damaged(m_Damage);
             }
         }
     }

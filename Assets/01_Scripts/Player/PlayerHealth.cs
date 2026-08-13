@@ -58,6 +58,8 @@ namespace Player
             }
             
             OnHealthChanged?.Invoke(m_Health, m_MaxHealth);
+
+            InvincibleTime(0.2f);
         }
 
         public void InvincibleTime(float time)
@@ -69,7 +71,7 @@ namespace Player
         {
             gameObject.layer = LayerMask.NameToLayer("Player_Invincible");
             yield return new WaitForSeconds(time);
-            gameObject.layer = LayerMask.NameToLayer("Player");
+            gameObject.layer = LayerMask.NameToLayer("PLAYER");
         }
 
         private void PlayerDead()
