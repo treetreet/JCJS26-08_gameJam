@@ -20,6 +20,8 @@ namespace TempEnemy
         [SerializeField] protected SpriteRenderer _spriteRenderer;
         [SerializeField] protected Rigidbody2D _rigid;
         [SerializeField] protected Animator _animator;
+        [SerializeField] private AudioSource _audioSource;
+
 
         protected int attackHash;
         protected int moveHash;
@@ -38,6 +40,7 @@ namespace TempEnemy
             _player = GameObject.FindWithTag("Player");
             attackHash = Animator.StringToHash("Attack");
             moveHash = Animator.StringToHash("IsMove");
+            _audioSource = GetComponent<AudioSource>();
         }
         
         internal void FlipSprite()
@@ -139,6 +142,8 @@ namespace TempEnemy
                 _rigid.linearVelocity = new Vector2(_moveDir.x * _enemy.enemyStat.moveSpeed, _rigid.linearVelocity.y);
                 if(_animator != null)
                     _animator.SetBool(moveHash, true);
+                if(_audioSource != null)
+                    _audioSource.Play();
             }
         }
 
