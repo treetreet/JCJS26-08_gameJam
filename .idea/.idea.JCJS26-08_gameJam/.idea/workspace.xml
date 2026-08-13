@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayetStaticCurrentHealth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayetStaticCurrentHealth.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/PlayerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/PlayerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSystem_Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/InputSystem_Actions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Boss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Error.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Error.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/HearMonster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/HearMonster.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/InvincibleMonster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/InvincibleMonster.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/RobotBat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/RobotBat.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Tower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Singleton/Setting Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Singleton/Setting Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Images/Tile/Tiles.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Images/Tile/Tiles.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/15471c8da2ab47848cd50a89d3faf51022c00/30/0cb05c0d/AudioMixer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/01_Scripts/Camera Follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@4f9b15fd1386/Runtime/UGUI/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
