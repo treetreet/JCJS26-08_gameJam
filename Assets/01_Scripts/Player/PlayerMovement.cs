@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Player
 {
-    [RequireComponent(typeof(Rigidbody2D)), RequireComponent(typeof(BoxCollider2D))]
+    [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerMovement : MonoBehaviour
     {
         [Header("Movement")]
