@@ -344,7 +344,6 @@ GameObject:
   - component: {fileID: 314440752}
   - component: {fileID: 314440751}
   - component: {fileID: 314440750}
-  - component: {fileID: 314440753}
   m_Layer: 0
   m_Name: SceneChanger
   m_TagString: Untagged
@@ -473,19 +472,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &314440753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314440749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ca56c30881dd434eb194ecd1e8635c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  m_SceneName: PlayerTest 1
 --- !u!1 &495536322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1101,7 @@ Transform:
   m_GameObject: {fileID: 1317438164}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.91, y: -2.24, z: 0}
+  m_LocalPosition: {x: 0.06, y: -2.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
