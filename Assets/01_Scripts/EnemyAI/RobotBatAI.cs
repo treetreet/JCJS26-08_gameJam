@@ -48,7 +48,7 @@ public class RobotBatAI : EnemyAI
                 if (Vector2.Distance(_rigid.position, targetWorldPos) > 0.05f)
                 {
                     // Rigidbody2D를 사용하여 물리 법칙을 준수하며 부드럽게 이동
-                    Vector2 nextPos = Vector2.MoveTowards(_rigid.position, targetWorldPos, _enemy.enemyStat.moveSpeed * Time.deltaTime);
+                    Vector2 nextPos = Vector2.MoveTowards(_rigid.position, targetWorldPos, _enemy.moveSpeed * Time.deltaTime);
                     _rigid.MovePosition(nextPos);
                 }
             }
@@ -104,7 +104,7 @@ public class RobotBatAI : EnemyAI
         Vector2 targetPos = _player.transform.position;
         
         // 2D 비행 몬스터이므로 X, Y축 모두 플레이어를 향해 직접 이동
-        Vector2 nextPos = Vector2.MoveTowards(_rigid.position, targetPos, _enemy.enemyStat.moveSpeed * Time.deltaTime);
+        Vector2 nextPos = Vector2.MoveTowards(_rigid.position, targetPos, _enemy.moveSpeed * Time.deltaTime);
         _rigid.MovePosition(nextPos);
 
         // Rigidbody 벨로시티를 0으로 유지하여 MovePosition이 원활히 동작하도록 함
