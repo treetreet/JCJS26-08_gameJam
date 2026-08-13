@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d598fac6c1f654c80090731bec6e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  damage: 2
   hasReflected: 0
 --- !u!61 &-4037807845464200378
 BoxCollider2D:
@@ -120,7 +121,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0

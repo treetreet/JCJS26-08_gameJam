@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class TowerLogic : MonoBehaviour
@@ -27,7 +28,7 @@ public class TowerLogic : MonoBehaviour
         {
             for (float i = 0; i < 5; i += 0.1f)
             {
-                Instantiate(_beam, transform.position, quaternion.Euler(0, 0, Random.Range(0f, 360f)));
+                Instantiate(_beam, transform.position, quaternion.Euler(0, 0, Random.Range(-45f, 0f)));
                 yield return new WaitForSeconds(0.1f);
             }
             yield return new WaitForSeconds(1f);
@@ -37,5 +38,6 @@ public class TowerLogic : MonoBehaviour
     void OnDestroy()
     {
         _audioSource.Play();
+        SceneManager.LoadScene(4);
     }
 }

@@ -24,10 +24,14 @@ namespace Sword
         private void OnTriggerEnter2D(Collider2D col)
         {
             Debug.Log("Collision Enter : " + col.gameObject.name);
-            if(col.gameObject.CompareTag("Enemy"))
+            if (col.gameObject.CompareTag("Enemy") || col.gameObject.GetComponent<TowerHealth>() != null)
             {
-                Debug.Log(col.gameObject.name + "Damaged");
-                col.gameObject.GetComponent<IDamageable>().Damaged(m_Damage);
+                var damageable = col.gameObject.GetComponent<IDamageable>();
+                if (damageable != null)
+                {
+                    Debug.Log(col.gameObject.name + " Damaged");
+                    damageable.Damaged(m_Damage);
+                }
             }
         }
     }

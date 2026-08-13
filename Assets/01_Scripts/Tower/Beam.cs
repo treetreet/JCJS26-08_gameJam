@@ -10,6 +10,23 @@ public class Beam : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
+
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+        {
+            rb = gameObject.AddComponent<Rigidbody2D>();
+        }
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = 0f;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+        // 물리적으로 서로 밀쳐내지 않고 통과(겹침)하도록 트리거로 설정
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+        {
+            col.isTrigger = true;
+        }
     }
     
     void Update()
@@ -76,6 +93,11 @@ public class Beam : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+        else if (hasReflected && collision.gameObject.TryGetComponent<TowerHealth>(out var towerHealth))
+        {
+            towerHealth.Damaged(damage);
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -88,6 +110,11 @@ public class Beam : MonoBehaviour
                 playerHealth.DecreaseHealth(damage);
                 Destroy(gameObject);
             }
+        }
+        else if (hasReflected && collision.gameObject.TryGetComponent<TowerHealth>(out var towerHealth))
+        {
+            towerHealth.Damaged(damage);
+            Destroy(gameObject);
         }
     }
 }
