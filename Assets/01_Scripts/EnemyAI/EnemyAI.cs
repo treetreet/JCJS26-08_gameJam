@@ -121,7 +121,7 @@ namespace TempEnemy
                     if (obj.CompareTag("Player"))
                     {
                         // 플레이어 데미지 코드
-                        obj.GetComponent<PlayerHealth>().DecreaseHealth(_enemy.enemyStat.damage);
+                        obj.GetComponent<PlayerHealth>().DecreaseHealth(_enemy.damage);
                         Debug.Log("Player Damage");
                     }
                 }
