@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JCJS26-08_gameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Boss.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Error.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Error.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/HearMonster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/HearMonster.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/InvincibleMonster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/InvincibleMonster.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/RobotBat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/RobotBat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Entity/Tower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Singleton/Setting Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Singleton/Setting Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/09_Images/Tile/Tiles.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Images/Tile/Tiles.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Camera Follow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Camera Follow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01_Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04_Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04_Prefab/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
