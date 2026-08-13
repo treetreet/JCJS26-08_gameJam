@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da1aef8-16b8-4e57-b8c4-70e946074179" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/01_Scripts/UI/GameStartButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/01_Scripts/UI/GameStartButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternAssets/Silver SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExternAssets/Silver SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

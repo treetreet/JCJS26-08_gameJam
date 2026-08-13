@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Turn down the volume
+  m_text: 'Turn down the volume : Scroll
 
     They can hear and find you'
   m_isRightToLeft: 0
@@ -5355,7 +5355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Light Down
+  m_text: 'Light Down : Ctrl + Scroll
 
     Enemy Can''t See you'
   m_isRightToLeft: 0
