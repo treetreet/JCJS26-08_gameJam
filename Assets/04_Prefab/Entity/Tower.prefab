@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 5172174341848706259}
   - component: {fileID: 2472893384099858644}
   - component: {fileID: 506614493264424606}
+  - component: {fileID: 3987938244708920463}
   m_Layer: 0
   m_Name: TowerEye
   m_TagString: Untagged
@@ -247,6 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerLogic
   _beam: {fileID: 609741278451836703, guid: 6d07846a9c72afd49a10d118af075b37, type: 3}
+  _audioSource: {fileID: 0}
 --- !u!82 &506614493264424606
 AudioSource:
   m_ObjectHideFlags: 0
@@ -344,3 +346,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3987938244708920463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7380005391773402558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb034f5c90e2394b8f3f079db0e0efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TowerHealth
+  _towerHP: 100

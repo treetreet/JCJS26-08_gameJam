@@ -4929,7 +4929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60dd9916cc9ad664c8f53a7587dcec17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TempEnemy.Enemy
-  <enemyStat>k__BackingField: {fileID: 11400000, guid: 7803ea097ac75e74aa4add0a223af5c9, type: 2}
+  <enemyStat>k__BackingField: {fileID: 11400000, guid: 630a3fbdbd23a1d418f14081837bd04a, type: 2}
   enemyType: 2
   m_EnemyVFX: {fileID: 0}
   _player: {fileID: 0}
@@ -4957,6 +4957,7 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 9182175888157447113}
   _rigid: {fileID: 0}
   _animator: {fileID: 0}
+  _audioSource: {fileID: 0}
   m_EarSprites:
   - {fileID: 7194306007155238522}
   - {fileID: 2166608464570871757}

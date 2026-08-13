@@ -29,6 +29,7 @@ namespace TempEnemy
     {
         Bat,
         Error,
+        Invincible,
         Hear,
         Boss
     }
@@ -43,6 +44,7 @@ namespace TempEnemy
         [Header("Enemy Components")]
         [SerializeField] private EnemyVFX m_EnemyVFX;
         [SerializeField] private GameObject _player;
+
 
 
 
@@ -127,6 +129,9 @@ namespace TempEnemy
                 break;
                 case EnemyType.Error:
                     enemyStat.detectionRange = GimmickManager.instance.m_LightSlider.value * 10f;
+                break;
+                case EnemyType.Invincible:
+                    enemyStat.detectionRange = 20;
                 break;
                 case EnemyType.Hear:
                     enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value + 40;

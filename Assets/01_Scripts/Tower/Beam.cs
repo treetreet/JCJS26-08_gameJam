@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Beam : MonoBehaviour
 {
-    float timeAfterGened = 0f;
     public bool hasReflected = false;
     Camera mainCamera;
 
@@ -10,20 +9,12 @@ public class Beam : MonoBehaviour
     {
         mainCamera = Camera.main;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         this.transform.Translate(Vector2.right * Time.deltaTime * 5);
-        timeAfterGened += Time.deltaTime;
-        
-        if(timeAfterGened >= 5f)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
 
-        if (!hasReflected && mainCamera != null)
+        if (mainCamera != null)
         {
             Vector3 viewPos = mainCamera.WorldToViewportPoint(transform.position);
             bool outOfBounds = false;
@@ -57,7 +48,6 @@ public class Beam : MonoBehaviour
 
             if (outOfBounds)
             {
-                
                 if(hasReflected)
                     Destroy(this.gameObject);
                 Vector2 reflectDir = Vector2.Reflect(transform.right, normal);

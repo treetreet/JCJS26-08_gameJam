@@ -10,16 +10,16 @@ GameObject:
   m_Component:
   - component: {fileID: 6542739570041441664}
   - component: {fileID: 6104014473222207328}
-  - component: {fileID: 1540806819332492994}
   - component: {fileID: 8221745662670000733}
   - component: {fileID: 3524062119808140460}
   - component: {fileID: 2280066000240827745}
   - component: {fileID: 7456424728403985647}
   - component: {fileID: 7111851457516380634}
   - component: {fileID: 6882707817235656552}
-  - component: {fileID: -8692857985742489864}
+  - component: {fileID: 4511663002306030190}
+  - component: {fileID: 6905081409129547410}
   m_Layer: 0
-  m_Name: RobotBat
+  m_Name: InvincibleMonster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1542839845306832124, guid: d2b11e2497738624ba422fedc6c2aab5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -100,28 +100,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &1540806819332492994
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2708179669190918212}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d44e4fb02a7dcf4694f6f03a5e52132, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &8221745662670000733
 Rigidbody2D:
   serializedVersion: 5
@@ -5010,8 +4988,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60dd9916cc9ad664c8f53a7587dcec17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TempEnemy.Enemy
-  <enemyStat>k__BackingField: {fileID: 11400000, guid: 1afc98790e86384489a1eda3cf66112c, type: 2}
-  enemyType: 0
+  <enemyStat>k__BackingField: {fileID: 11400000, guid: 8824a4c4316342b42be24c4100d3dc6d, type: 2}
+  enemyType: 2
   m_EnemyVFX: {fileID: 0}
   _player: {fileID: 0}
 --- !u!114 &6882707817235656552
@@ -5026,7 +5004,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32de469f8c2340ca83699053a66d8dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TempEnemy.EnemyVFX
---- !u!114 &-8692857985742489864
+--- !u!82 &4511663002306030190
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708179669190918212}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 8135d4465e4afcb409ae547f405c23cb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6905081409129547410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5035,9 +5110,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2708179669190918212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7336cb639cf19b46a292bfe7aa86aea, type: 3}
+  m_Script: {fileID: 11500000, guid: 201fea7922efb1446b9c8d673cba2135, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RobotBatAI
+  m_EditorClassIdentifier: Assembly-CSharp::TempEnemy.InvincibleAI
   patrolPoints: []
   _player: {fileID: 0}
   _playerLayer:
