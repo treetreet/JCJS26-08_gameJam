@@ -17,6 +17,7 @@ namespace Player
         /// </summary>
         public event Action<float, float> OnHealthChanged;
 
+        #region TEST
         [ContextMenu("IncreaseHealth10")]
         public void IncreaseHealth10()
         {
@@ -28,8 +29,15 @@ namespace Player
         {
             DecreaseHealth(10);
         }
-        
-        
+        #endregion
+
+        private void Start()
+        {
+            m_Health = PlayetStaticCurrentHealth.m_Health;
+            OnHealthChanged += ChangeStaticValue;
+            OnHealthChanged?.Invoke(m_Health, m_MaxHealth);
+        }
+
         /// <summary>
         /// Health += amount
         /// </summary>
@@ -77,6 +85,11 @@ namespace Player
         private void PlayerDead()
         {
             
+        }
+
+        private void ChangeStaticValue(float value, float maxValue)
+        {
+            PlayetStaticCurrentHealth.m_Health = value;
         }
     }
 }
