@@ -1,7 +1,9 @@
 using UnityEngine;
+using Player;
 
 public class Beam : MonoBehaviour
 {
+    [SerializeField] private float damage = 10f;
     public bool hasReflected = false;
     Camera mainCamera;
 
@@ -59,6 +61,32 @@ public class Beam : MonoBehaviour
                 transform.position = worldPos;
 
                 hasReflected = true;
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.DecreaseHealth(damage);
+                Destroy(gameObject);
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.DecreaseHealth(damage);
+                Destroy(gameObject);
             }
         }
     }
