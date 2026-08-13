@@ -5010,10 +5010,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60dd9916cc9ad664c8f53a7587dcec17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TempEnemy.Enemy
-  <enemyStat>k__BackingField: {fileID: 11400000, guid: 1afc98790e86384489a1eda3cf66112c, type: 2}
+  enemyStatTemplate: {fileID: 11400000, guid: 1afc98790e86384489a1eda3cf66112c, type: 2}
   enemyType: 0
   m_EnemyVFX: {fileID: 0}
   _player: {fileID: 0}
+  _health: 0
+  _damage: 0
+  _attackSpeed: 0
+  _attackRange: 0
+  _moveSpeed: 0
+  _detectionRange: 0
 --- !u!114 &6882707817235656552
 MonoBehaviour:
   m_ObjectHideFlags: 0
