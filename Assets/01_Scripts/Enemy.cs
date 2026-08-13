@@ -4,7 +4,12 @@ using UnityEngine;
 
     public interface IEnemy
     {
-        public EnemyStat enemyStat { get; }
+        public int Health { get; set; }
+        public int damage { get; }
+        public float attackSpeed { get; }
+        public float attackRange { get; }
+        public float moveSpeed { get; }
+        public float detectionRange { get; }
     }
     
     public interface IDamageable
@@ -36,21 +41,53 @@ namespace TempEnemy
 
     public class Enemy : MonoBehaviour, IDamageable, IEnemy
     {
-        [Header("Enemy Stat")]
-        [field: SerializeField] public EnemyStat enemyStat { get; private set; }
+        [Header("Enemy Stat Template")]
+        [SerializeField] private EnemyStat enemyStatTemplate;
         [SerializeField] public EnemyType enemyType;
         protected EnemyState enemyState;
+
+        private float _currentDetectionRange;
 
         [Header("Enemy Components")]
         [SerializeField] private EnemyVFX m_EnemyVFX;
         [SerializeField] private GameObject _player;
 
-
-
-
-
         [Header("Enemy Settings")]
         private EnemyAI _enemyAI;
+
+        // 분리된 런타임 스탯 필드들
+        [Header("Live Stats")]
+        [SerializeField] private int _health;
+        [SerializeField] private int _damage;
+        [SerializeField] private float _attackSpeed;
+        [SerializeField] private float _attackRange;
+        [SerializeField] private float _moveSpeed;
+        [SerializeField] private float _detectionRange;
+
+        // IEnemy 인터페이스 구현
+        public int Health { get => _health; set => _health = value; }
+        public int damage => _damage;
+        public float attackSpeed => _attackSpeed;
+        public float attackRange => _attackRange;
+        public float moveSpeed => _moveSpeed;
+        public float detectionRange => _detectionRange;
+
+        void Awake()
+        {
+            if (enemyStatTemplate != null)
+            {
+                _health = enemyStatTemplate.Health;
+                _damage = enemyStatTemplate.damage;
+                _attackSpeed = enemyStatTemplate.attackSpeed;
+                _attackRange = enemyStatTemplate.attackRange;
+                _moveSpeed = enemyStatTemplate.moveSpeed;
+                _detectionRange = enemyStatTemplate.detectionRange;
+            }
+            else
+            {
+                Debug.LogWarning($"EnemyStatTemplate is not assigned on {gameObject.name}");
+            }
+        }
 
         void Start()
         {
@@ -58,6 +95,8 @@ namespace TempEnemy
             m_EnemyVFX = GetComponent<EnemyVFX>();
             _enemyAI = GetComponent<EnemyAI>();
             _player = GameObject.FindWithTag("Player");
+            
+            _currentDetectionRange = detectionRange;
         }
 
        
@@ -66,26 +105,31 @@ namespace TempEnemy
             if(enemyState == EnemyState.Die)
                 return;
 
-            float distanceToPlayer = Vector2.Distance(transform.position, _player.transform.position);
-
-            // 감지 범위를 벗어나면 다시 순찰 상태로 복귀
-            if (_player == null || distanceToPlayer > enemyStat.detectionRange)
+            if (_player == null)
             {
-
                 enemyState = EnemyState.Patrol;
                 return;
             }
+
+            float distanceToPlayer = Vector2.Distance(transform.position, _player.transform.position);
+
+            // 감지 범위를 벗어나면 다시 순찰 상태로 복귀
+            if (distanceToPlayer > _currentDetectionRange)
+            {
+                enemyState = EnemyState.Patrol;
+            }
             else
             {
-                enemyState = EnemyState.Chase;
+                // 감지 범위 내에 들어왔을 때만 공격 범위 판정
+                if (distanceToPlayer <= attackRange)
+                {
+                    enemyState = EnemyState.Attack;
+                }
+                else
+                {
+                    enemyState = EnemyState.Chase;
+                }
             }
-            // 공격 범위 내에 들어오면 공격 상태로 전환
-            if (distanceToPlayer <= enemyStat.attackRange)
-            {
-                enemyState = EnemyState.Attack;
-                return;
-            }
-
         }
 
         void Update()
@@ -112,29 +156,35 @@ namespace TempEnemy
         public void Damaged(int damage)
         {
             m_EnemyVFX.DamagedEffect();
-            enemyStat.Health -= damage;
-            if (enemyStat.Health <= 0)
+            Health -= damage;
+            if (Health <= 0)
             {
-                StartCoroutine(_enemyAI.Die());
+                _enemyAI.Die();
             }
         }
 
         protected void SetDetectRange()
         {
+            if (enemyStatTemplate == null) return;
+
             switch (enemyType)
             {
                 case EnemyType.Bat:
-                    if(GimmickManager.instance.m_LightSlider.value > 0.2f)
-                        enemyStat.detectionRange = 0;
+                    if (GimmickManager.instance != null && GimmickManager.instance.m_LightSlider.value > 0.2f)
+                        _currentDetectionRange = 0;
+                    else
+                        _currentDetectionRange = detectionRange;
                 break;
                 case EnemyType.Error:
-                    enemyStat.detectionRange = GimmickManager.instance.m_LightSlider.value * 10f;
+                    if (GimmickManager.instance != null)
+                        _currentDetectionRange = GimmickManager.instance.m_LightSlider.value * 10f;
                 break;
                 case EnemyType.Invincible:
-                    enemyStat.detectionRange = 20;
+                    _currentDetectionRange = 20;
                 break;
                 case EnemyType.Hear:
-                    enemyStat.detectionRange = GimmickManager.instance.m_SoundSlider.value + 40;
+                    if (GimmickManager.instance != null)
+                        _currentDetectionRange = GimmickManager.instance.m_SoundSlider.value + 40;
                 break;
             }
         }
