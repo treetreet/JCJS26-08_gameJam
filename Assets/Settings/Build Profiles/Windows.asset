@@ -26,20 +26,14 @@ MonoBehaviour:
     m_path: Assets/Scenes/MainTitle.unity
     m_guid: b2f5a67b824660942aa6599ed11258f7
   - m_enabled: 1
-    m_path: Assets/Scenes/Stage1.unity
-    m_guid: c0260c7a463834548be000bab8d3f582
-  - m_enabled: 1
-    m_path: Assets/Scenes/Stage2.unity
-    m_guid: 8c9cfa26abfee488c85f1582747f6a02
+    m_path: Assets/Scenes/Tutorial.unity
+    m_guid: a2e4a638c56777f4abaa8c7f9bc974a5
   - m_enabled: 1
     m_path: Assets/Scenes/Stage3.unity
     m_guid: 3f30050384474984cbd101fffc665df1
   - m_enabled: 1
     m_path: Assets/Scenes/Ending.unity
     m_guid: 3b2addcc9bad26646b8f5e1a418ccad5
-  - m_enabled: 1
-    m_path: Assets/Scenes/Tutorial.unity
-    m_guid: a2e4a638c56777f4abaa8c7f9bc974a5
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

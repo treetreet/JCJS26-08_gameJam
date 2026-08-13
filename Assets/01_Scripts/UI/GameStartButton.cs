@@ -7,7 +7,7 @@ namespace UI_Scripts
     {
         public void GameStart()
         {
-            SceneManager.LoadScene("Tutorial");
+            SceneManager.LoadScene("Scenes/Tutorial");
         }
     }
 }
