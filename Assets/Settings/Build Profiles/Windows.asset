@@ -37,6 +37,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Ending.unity
     m_guid: 3b2addcc9bad26646b8f5e1a418ccad5
+  - m_enabled: 1
+    m_path: Assets/Scenes/Tutorial.unity
+    m_guid: a2e4a638c56777f4abaa8c7f9bc974a5
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
