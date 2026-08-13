@@ -820,7 +820,7 @@ MonoBehaviour:
   m_LightSlider: {fileID: 508038886808970177}
   m_SoundSlider: {fileID: 95251008743048684}
   m_MaxVolume: 0
-  m_MinVolume: -40
+  m_MinVolume: -50
   m_DarkImage: {fileID: 5801154873051405584}
 --- !u!114 &4171659373704599166
 MonoBehaviour:
