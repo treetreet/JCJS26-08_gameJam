@@ -17,13 +17,14 @@ GameObject:
   - component: {fileID: 7456424728403985647}
   - component: {fileID: 7111851457516380634}
   - component: {fileID: 6882707817235656552}
+  - component: {fileID: -8692857985742489864}
   m_Layer: 0
   m_Name: RobotBat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6542739570041441664
 Transform:
   m_ObjectHideFlags: 0
@@ -147,7 +148,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &3524062119808140460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5025,3 +5026,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32de469f8c2340ca83699053a66d8dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TempEnemy.EnemyVFX
+--- !u!114 &-8692857985742489864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708179669190918212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7336cb639cf19b46a292bfe7aa86aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RobotBatAI
+  patrolPoints: []
+  _player: {fileID: 0}
+  _playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  _moveDir: {x: 0, y: 0}
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  _spriteRenderer: {fileID: 0}
+  _rigid: {fileID: 0}
+  _animator: {fileID: 0}
