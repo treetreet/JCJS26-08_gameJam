@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 namespace TempEnemy
@@ -120,6 +121,7 @@ namespace TempEnemy
                     if (obj.CompareTag("Player"))
                     {
                         // 플레이어 데미지 코드
+                        obj.GetComponent<PlayerHealth>().DecreaseHealth(_enemy.enemyStat.damage);
                         Debug.Log("Player Damage");
                     }
                 }
