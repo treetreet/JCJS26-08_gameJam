@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ca56c30881dd434eb194ecd1e8635c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  m_SceneName: Stage3
+  m_SceneName: Scenes/Stage3
   fadeOut: {fileID: 13289349}
 --- !u!61 &881526231
 BoxCollider2D:

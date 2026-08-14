@@ -38,6 +38,6 @@ public class TowerLogic : MonoBehaviour
     void OnDestroy()
     {
         _audioSource.Play();
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("Scenes/Ending");
     }
 }
