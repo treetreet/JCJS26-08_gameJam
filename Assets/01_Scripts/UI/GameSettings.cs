@@ -19,6 +19,9 @@ public class GameSettings : MonoBehaviour
 
         m_Actions.UI.Volume.performed += OnVolumeScroll;
         m_Actions.UI.Light.performed += OnLightScroll;
+
+        m_AudioSlider.value = -20;
+        m_LightSlider.value = 0.5f;
     }
 
     private void OnDisable()

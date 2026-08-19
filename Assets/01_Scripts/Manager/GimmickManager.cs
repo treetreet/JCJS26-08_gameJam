@@ -46,10 +46,12 @@ public class GimmickManager : MonoBehaviour
 
     private void ChangeLight(float value)
     {
+        Debug.Log("Light Changed");
         m_DarkImage.color = new Color(0, 0, 0, 1 - value);
     }
     private void ChangeVolume(float value)
     {
+        Debug.Log("Volume Changed");
         m_AudioManager.SetVolume(value);
     }
 }
