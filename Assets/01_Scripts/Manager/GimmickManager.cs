@@ -10,7 +10,7 @@ public class GimmickManager : MonoBehaviour
     [SerializeField] public Slider m_SoundSlider;
     private AudioManager m_AudioManager;
 
-    [SerializeField] private float m_MaxVolume = 0;
+    [SerializeField] private float m_MaxVolume = 10;
     [SerializeField] private float m_MinVolume = -40;
 
     [Header("기믹 이미지")]

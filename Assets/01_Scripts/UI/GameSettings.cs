@@ -7,7 +7,7 @@ public class GameSettings : MonoBehaviour
     [SerializeField] private Slider m_AudioSlider;
     [SerializeField] private Slider m_LightSlider;
 
-    [SerializeField] private float m_AudioSliderSensitivity = 1;
+    [SerializeField] private float m_AudioSliderSensitivity = 1f;
     [SerializeField] private float m_LightSliderSensitivity = 0.02f;
 
     private InputSystem_Actions m_Actions;
@@ -20,7 +20,7 @@ public class GameSettings : MonoBehaviour
         m_Actions.UI.Volume.performed += OnVolumeScroll;
         m_Actions.UI.Light.performed += OnLightScroll;
 
-        m_AudioSlider.value = -20;
+        m_AudioSlider.value = -15;
         m_LightSlider.value = 0.5f;
     }
 
@@ -39,13 +39,19 @@ public class GameSettings : MonoBehaviour
         if (Keyboard.current.ctrlKey.isPressed) return;
         float scrollValue = context.ReadValue<float>();
 
+        Debug.Log($"ScrollValue : {scrollValue}");
+
         m_AudioSlider.value += scrollValue * m_AudioSliderSensitivity;
+        m_LightSlider.value -= scrollValue * m_LightSliderSensitivity;
     }
 
     private void OnLightScroll(InputAction.CallbackContext context)
     {
         float scrollValue = context.ReadValue<float>();
 
+        Debug.Log($"ScrollValue : {scrollValue}");
+
         m_LightSlider.value += scrollValue * m_LightSliderSensitivity;
+        m_AudioSlider.value -= scrollValue * m_AudioSliderSensitivity;
     }
 }

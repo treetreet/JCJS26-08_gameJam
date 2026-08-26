@@ -845,7 +845,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 95251008743048684, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_Value
-      value: 0.5
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 95251008743048684, guid: 7a412b4db496529488592b7b56618aba, type: 3}
+      propertyPath: m_MaxValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 95251008743048684, guid: 7a412b4db496529488592b7b56618aba, type: 3}
+      propertyPath: m_MinValue
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 508038886808970177, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_Value
@@ -859,6 +867,10 @@ PrefabInstance:
       propertyPath: m_AudioSliderSensitivity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3553709451327873251, guid: 7a412b4db496529488592b7b56618aba, type: 3}
+      propertyPath: m_LightSliderSensitivity
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 3694100526720740033, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -870,6 +882,10 @@ PrefabInstance:
     - target: {fileID: 3694100526720740033, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435775523228222065, guid: 7a412b4db496529488592b7b56618aba, type: 3}
+      propertyPath: m_AudioSliderSensitivity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4511743155443070289, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_Name
@@ -960,8 +976,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6346367096799201202, guid: 7a412b4db496529488592b7b56618aba, type: 3}
+      propertyPath: m_MaxVolume
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346367096799201202, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_MinVolume
-      value: -50
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 6491731733416028370, guid: 7a412b4db496529488592b7b56618aba, type: 3}
       propertyPath: m_AnchorMax.x
@@ -991,7 +1011,8 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3553709451327873251, guid: 7a412b4db496529488592b7b56618aba, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
