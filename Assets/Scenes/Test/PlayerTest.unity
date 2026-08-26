@@ -486,6 +486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   m_SceneName: PlayerTest 1
+  fadeOut: {fileID: 0}
 --- !u!1 &495536322
 GameObject:
   m_ObjectHideFlags: 0
