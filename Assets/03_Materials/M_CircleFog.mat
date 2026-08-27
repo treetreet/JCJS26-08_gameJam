@@ -43,7 +43,7 @@ Material:
     m_Floats:
     - _Aspect: 1.777777
     - _EnableExternalAlpha: 0
-    - _Radius: 0.229
+    - _Radius: 0.41999993
     - _Softness: 0.05
     - _ZWrite: 0
     m_Colors:

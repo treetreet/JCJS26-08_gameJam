@@ -10,6 +10,8 @@ public class GameSettings : MonoBehaviour
     [SerializeField] private float m_AudioSliderSensitivity = 1f;
     [SerializeField] private float m_LightSliderSensitivity = 0.02f;
 
+    [SerializeField] private Material m_BrightnessMaterial;
+
     private InputSystem_Actions m_Actions;
 
     private void OnEnable()
@@ -43,6 +45,8 @@ public class GameSettings : MonoBehaviour
 
         m_AudioSlider.value += scrollValue * m_AudioSliderSensitivity;
         m_LightSlider.value -= scrollValue * m_LightSliderSensitivity;
+
+        m_BrightnessMaterial.SetFloat("_Radius", m_LightSlider.value);
     }
 
     private void OnLightScroll(InputAction.CallbackContext context)
@@ -53,5 +57,7 @@ public class GameSettings : MonoBehaviour
 
         m_LightSlider.value += scrollValue * m_LightSliderSensitivity;
         m_AudioSlider.value -= scrollValue * m_AudioSliderSensitivity;
+
+        m_BrightnessMaterial.SetFloat("_Radius", m_LightSlider.value);
     }
 }
