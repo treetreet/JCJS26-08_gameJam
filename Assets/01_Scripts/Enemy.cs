@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using TempEnemy;
 
 
     public interface IEnemy
@@ -16,10 +17,6 @@ using UnityEngine;
     {
         void Damaged(int damage);
     }
-
-namespace TempEnemy
-{
-
 
     public enum EnemyState
     {
@@ -76,6 +73,7 @@ namespace TempEnemy
         {
             if (enemyStatTemplate != null)
             {
+                // SO의 값으로 스탯 초기화
                 _health = enemyStatTemplate.Health;
                 _damage = enemyStatTemplate.damage;
                 _attackSpeed = enemyStatTemplate.attackSpeed;
@@ -190,4 +188,3 @@ namespace TempEnemy
         }
 
     }
-}

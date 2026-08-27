@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Player;
 using UnityEngine;
+using TempEnemy;
 
-namespace TempEnemy
-{
     public class EnemyAI : MonoBehaviour
     {
         protected IEnemy _enemy;
@@ -169,4 +168,3 @@ namespace TempEnemy
             }
         }
     }
-}
