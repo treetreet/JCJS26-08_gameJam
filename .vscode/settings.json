@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "JCJS26-08_gameJam.slnx"
+    "dotnet.defaultSolution": "JCJS26-08_gameJam.slnx",
+    "google.datacloud.enableTelemetry": false
 }
