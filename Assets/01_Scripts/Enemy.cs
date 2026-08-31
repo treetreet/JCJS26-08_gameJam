@@ -42,8 +42,11 @@ using TempEnemy;
         [SerializeField] private EnemyStat enemyStatTemplate;
         [SerializeField] public EnemyType enemyType;
         protected EnemyState enemyState;
+        public EnemyStateBase m_PatrolState;
+        public EnemyStateBase m_AttackState;
+        public EnemyStateBase m_ChaseState;
 
-        private float _currentDetectionRange;
+        public float _currentDetectionRange;
 
         [Header("Enemy Components")]
         [SerializeField] private EnemyVFX m_EnemyVFX;
@@ -97,6 +100,7 @@ using TempEnemy;
             _currentDetectionRange = detectionRange;
         }
 
+        public float DistanceToPlayer() => Vector2.Distance(transform.position, _player.transform.position);
        
         public virtual void ChangeState()
         {

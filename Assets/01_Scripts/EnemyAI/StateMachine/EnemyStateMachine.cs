@@ -4,11 +4,12 @@ using UnityEngine.PlayerLoop;
 public class EnemyStateMachine : MonoBehaviour
 {
     public EnemyStateBase currentState;
+    public GameObject _player;
 
     public void Init(EnemyStateBase stateBase)
     {
         currentState = stateBase;
-        currentState!.Enter();   
+        currentState!.Enter();
     }
 
     public void ChangeState(EnemyStateBase newState)
